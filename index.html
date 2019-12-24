@@ -1,0 +1,272 @@
+<!Doctype html>
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>ICT4M 2020</title>
+      <link rel="stylesheet" type="text/css" href="css.css">
+      <link rel="shortcut icon" type="image" href="fav.png"/>
+ <style>
+  *{
+ margin: 0;
+  padding: 0;
+    }
+
+.navbar {
+     background-color: cornflowerblue ;
+  overflow: hidden;
+    height: 500px;
+    width:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: azure;
+        
+}
+
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.menu .active{
+  background-color:gray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+          .foot{
+               clear: both;
+               background-color:floralwhite;
+               padding-top: 20px;
+               padding-bottom:10px;
+               margin-top: 20px;
+           }
+           .foot1{
+               background-color: cornflowerblue;
+               padding: 10px;
+           }
+
+           .blue{
+               background-color:deepskyblue;
+               float: left;
+               overflow: hidden;
+               padding: 20px 50px 50px 50px;
+               margin-left: 40px;
+               margin-top: 20px;
+               font-size: 22px;
+               height: 270px;
+               
+               
+           }
+           .red{
+               background-color: darksalmon;
+               float: right;
+               overflow: hidden;
+               padding: 20px;
+               margin-right: 40px;
+               font-size: 22px;
+               margin-top: 20px;
+              height: 300px;
+           }
+           .theme{
+               clear: both;
+               
+           }
+           .themel{
+               float:left;
+               height: 250px;
+               width: 50%;
+               clear: both;
+               background: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+               margin-top: 20px;
+               margin-bottom: 20px;
+           }
+          .themer{
+              margin-top: 20px;
+               float: right;
+               height: 250px;
+               width: 50%;
+               overflow: hidden;
+            background: linear-gradient(to left, #0cebeb, #20e3b2, #29ffc6);
+              font-size: 20px;
+              margin-bottom: 20px;
+           }
+           .speaker{
+               clear: both;
+                
+           }
+           .button_a {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background:green;
+padding: 15px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+margin-top: 15px;
+}
+           .button_a:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+   </style>
+    </head>
+    <body>
+<div class="navbar">
+ <div class="menu">
+  <img src="logo%20white.png" height="50px" width="250px" style="float: left; margin-left: 50px;margin-right: 350px;">
+  <a href="#home" class="active">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn">ICTM42020 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="CCommitie.html">Conference Commitie</a>
+      <a href="previous.html">Previous ICTM4</a>
+      <a href="Speaker.html">Speakers</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">SUBMISSION
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="callforP.html">Call for papers & date</a>
+      <a href="submission_guideLines.html">Submission Guidlines</a>
+      <a href="program.html"> Conference Program</a>
+    </div>
+  </div>
+  <a href="contact.html">CONTACT</a>
+  <a href="register.html">FEES & REGISTRATION</a>
+</div>
+<div class="galleryContainer">
+    <div class="slideShowContainer">
+        
+
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop"></p></div>
+        <div><div class="imageHolder">
+            <img src="Cover.jpg">
+           <a class="captionText" href="register.html"><button href="registration.html">Register Now</button></a>
+        </div>
+        <div class="imageHolder">
+            <img src="IIUM%20Garden%20Leading%20the%20Way%2027-25.png">
+            <a class="captionText" href="register.html"><button href="registration.html">Register Now</button></a>
+        </div>
+        <div class="imageHolder">
+            <img src="Committee.jpg">
+            <a class="captionText" href="register.html"><button href="registration.html">Register Now</button></a>
+        </div>
+        <div class="imageHolder">
+            <img src="Callpaper.jpg">
+            <a class="captionText" href="register.html"><button href="registration.html">Register Now</button></a>
+            </div></div>
+    </div>
+    <div id="dotsContainer"></div>
+</div>
+<script src="myScript.js"></script>
+ </div>
+  <div>
+    <div class="blue">
+        <center>
+            <img src="Announcement.png" height="50px" width="50px">
+           <p><b>ANNOUNCMENT</b><br><br></p> 
+           <p style="text-decoration: underline;">ICT4M 2020 Conference Registration (Coming Soon!)</p>
+           <br>
+            <p style="text-decoration: underline;">ICT4M 2020 Workshop Registration (Coming Soon!)</p>
+            <br>
+             <p style="text-decoration: underline;">ICT4M 2020 Parallel Sessions (To Be Updated!)</p>
+             <div class="button_cont" align="center"><a class="button_a" href="add-website-here" target="_blank" rel="nofollow noopener">View More</a></div>
+           
+        </center>
+    </div>
+    <div class="red">
+        <center>
+            <img src="solutions-overview-icons.png" height="50px" width="50px">
+           <p><b>Overview</b><br><br></p> 
+           <p>ICT4M 2020 is a conference that gathers academicians, <br>researchers, practitioners, professionals, and students to<br> address the challenges of Information and <br>Communication Technology (ICT) for the Muslim world. <br>This conference has been conducted seven times<br> so far with the most recent location <br>in Kuala Lumpur, Malaysia on 23-25 July 2018.</p>
+            
+           
+        </center>
+    </div>
+
+  </div>
+  <div class="theme"><div class=themel>
+      <center><b><p style="margin-top: 20px; margin-bottom: 20px;font-size: 20px">THEME FOR THIS YEAR</p></b></center>
+      <center><p style="font-size: 40px; border: 2px dashed black;margin-left: 20px; margin-right: 20px; padding-bottom: 60px;padding-top: 20px">Mental  Health  and Well Being in the 4th Industrial Revolution</p></center></div>
+      <div class="themer">
+      <p style="margin: 50px;">In  conjunction  with the World  Congress  on  Integration and  Islamicization, ICT4M  2020 will  be held  on 27-29  March  2020  in  Kuantan,  Pahang. </p>
+      <p style="margin: 50px;">All accepted papers will be submitted for indexing in IEEE Xplore.  Selected papers will be invited for publications in Scopus journals </p>
+      </div>
+  </div>
+  <div class="speaker">
+     <div style="float: left; width:50%;background: linear-gradient(to right, #1c92d2, #f2fcfe); height: 400px;">
+      <center><p style="font-size: 40px; margin-top: 30px;"><b>Keynote Speaker</b></p></center>
+          <p style="margin-top: 20px; font-size: 30px; margin-left: 30px;"><b>Tan Sri Prof Dr Mohd Kamal Hassan </b></p><br><p style="font-size: 30px;margin-left: 30px; margin-bottom: 30px">Former Rector, International Islamic University Malaysia ( IIUM )</p>
+          <div class="button_cont" align="center"><a class="button_a" href="Speaker.html" target="_blank" rel="nofollow noopener">View More Speakers</a></div>
+      </div>
+      <img src="TanSriKamalHassan1.jpg" style="float: right;width: 50%; height: 400px;" >
+  </div>
+   
+   <footer class="foot" ><center><p style="margin:10px;"><b>Organized By</b></p>
+   <img src="IIUM%20logo.png" height="50px" width="50px" style="margin: 10px;">
+   <p style="margin: 10px;">International Islamic University Malaysia</p></center></footer>
+   <footer class="foot1"><center>Copyright @ ICT4M All right reserved by IIUM students </center></footer>
+    </body>
+</html>

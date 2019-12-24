@@ -1,0 +1,137 @@
+ <html> 
+<head>
+<style>*{
+               margin: 0;
+               padding: 0;
+   
+           }
+
+.navbar {
+  overflow: hidden;
+  background-image:url(Cover.jpg);
+  
+    height: 400px;
+    width:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.menu{
+    background-color: azure;
+        
+}
+
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+.menu .active{
+  background-color:gray;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+          .foot{
+               clear: both;
+               background-color:floralwhite;
+               padding-top: 20px;
+               padding-bottom:10px;
+               margin-top: 20px;
+           }
+           .foot1{
+               background-color: cornflowerblue;
+               padding: 10px;
+           }
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+ <div class="menu">
+  <img src="logo%20white.png" height="50px" width="250px" style="float: left; margin-left: 50px;margin-right: 350px;">
+  <a href="#home" class="active">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn">ICTM42020 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Conference Commitie</a>
+      <a href="#">Previous ICTM4</a>
+      <a href="#">Speakers</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">SUBMISSION
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Call for papers & date</a>
+      <a href="#">Submission Guidlines</a>
+
+    </div>
+  </div>
+  <a href="#home">CONTACT</a>
+  <a href="register.html">FEES & REGISTRATION</a>
+</div>
+
+<div>
+    
+</div>
+ </div>
+ 
+   <footer class="foot" ><center><p style="margin:10px;"><b>Organized By</b></p>
+   <img src="IIUM%20logo.png" height="50px" width="50px" style="margin: 10px;">
+   <p style="margin: 10px;">International Islamic University Malaysia</p></center></footer>
+   <footer class="foot1"><center>Copyright @ ICT4M All right reserved by IIUM students </center></footer>
+   
+</body>
+</html>
